@@ -1,0 +1,35 @@
+{
+  "name": "ChatApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^3.7.0",
+    "moment": "^2.17.1",
+    "react": "16.0.0-alpha.6",
+    "react-mixin": "^2.0.2",
+    "react-native": "0.43.1",
+    "react-native-fetch-blob": "^0.10.2",
+    "react-native-image-picker": "^0.26.2",
+    "react-native-img-cache": "^1.1.11",
+    "react-native-invertible-scroll-view": "^1.0.0",
+    "react-native-keyboard-spacer": "^0.3.1",
+    "react-native-navigation": "next",
+    "react-native-textinput-effects": "^0.3.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-swipeable-views-native": "^0.11.1",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "~15.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
